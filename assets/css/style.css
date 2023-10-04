@@ -1,0 +1,26 @@
+/* Configurações Globais */
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #fff;
+    --color-black: #0c0c0c;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    background: var(--color-white);
+}
+
+body {
+    font-family: 'Gabarito', cursive;
+}
+
+/* Fim das Configurações Globais */
