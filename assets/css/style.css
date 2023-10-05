@@ -87,63 +87,63 @@ body {
     display: none;
 }
 
-        /* small screen - menu hamburguer */
+    /* small screen - menu hamburguer */
 
-        @media (max-width: 560px) {
-            .navbar {
-                display: flex;
-                justify-content: end;
-            }
-            
-            .navbar-links {
-                display: flex;
-                flex-direction: column;
+    @media (max-width: 560px) {
+        .navbar {
+            display: flex;
+            justify-content: end;
+        }
 
-                width: 50%;
-                height: 100vh;
-                
-                padding: 20px;
+        .navbar-links {
+            display: flex;
+            flex-direction: column;
 
-                position: fixed;
-                right: 0;
-                top: 0;
-                background: #d3d2d2;
-                clip-path: circle(100px at 90% -20%);
+            width: 50%;
+            height: 100vh;
 
-                pointer-events: none;
-                transition: .6s ease-out;
-            }
+            padding: 20px;
 
-            .menu-hamburguer {
-                display: block;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background: #d3d2d2;
+            clip-path: circle(100px at 90% -20%);
 
-                padding: 0;
-                margin-bottom: .4rem;
-                border: none;
-                border-top: 3px solid var(--color-black);
+            pointer-events: none;
+            transition: .6s ease-out;
+        }
 
-                background: transparent;
-                transition: all .3s ease-in-out;
+        .menu-hamburguer {
+            display: block;
 
-                z-index: 1;
-            }
+            padding: 0;
+            margin-bottom: .4rem;
+            border: none;
+            border-top: 3px solid var(--color-black);
 
-            .menu-hamburguer:hover {
-                opacity: .8;
-                cursor: pointer;
-            }
+            background: transparent;
+            transition: all .3s ease-in-out;
 
-            .menu-hamburguer::before,
-            .menu-hamburguer::after {
-                content: "";
-                display: block;
-                width: 25px;
-                height: 3px;
+            z-index: 1;
+        }
 
-                margin-top: .6rem;
+        .menu-hamburguer:hover {
+            opacity: .8;
+            cursor: pointer;
+        }
 
-                background: var(--color-black);
-            }
+        .menu-hamburguer::before,
+        .menu-hamburguer::after {
+            content: "";
+            display: block;
+            width: 25px;
+            height: 3px;
+
+            margin-top: .6rem;
+
+            background: var(--color-black);
+        }
 
         /* menu hamburguer ATIVO */
 
@@ -167,24 +167,24 @@ body {
         }
     }
 
-        /* large screen to 4k screen - header */
+    /* large screen to 4k screen - header */
 
-        @media (min-width: 1840px) {
-            .header-title h1 {
-                font-size: calc(1vw + .8rem);
-            }
-
-            .navbar {
-                max-width: 25vw;
-            }
-
-            .navbar-links li {
-                margin: 1rem;
-            }
-
-            .navbar-links li a {
-                font-size: calc(1vw + .3rem);
-            }
+    @media (min-width: 1840px) {
+        .header-title h1 {
+            font-size: calc(1vw + .8rem);
         }
+
+        .navbar {
+            max-width: 25vw;
+        }
+
+        .navbar-links li {
+            margin: 1rem;
+        }
+
+        .navbar-links li a {
+            font-size: calc(1vw + .3rem);
+        }
+    }
 
 /* Fim do Header */
