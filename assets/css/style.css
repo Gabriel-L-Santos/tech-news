@@ -188,3 +188,23 @@ body {
     }
 
 /* Fim do Header */
+
+/* News */
+
+#news {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.news-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+/* Fim do News */
