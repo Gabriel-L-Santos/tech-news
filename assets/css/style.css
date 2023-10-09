@@ -215,18 +215,20 @@ body {
     border: solid 2px #7a7a7a;
     border-radius: 5px;
     background-color: rgb(37, 37, 37);
+    overflow: hidden;
 }
 
 .news-img {
-    max-width: 500px;
+    max-width: 450px;
     width: 100%;
     border-radius: 5px;
     -webkit-mask-image: linear-gradient(to top, transparent 1%, black 100%);
-    transition: opacity .3s ease;
+    object-fit: cover;
+    transition: transform .3s ease;
 }
 
 .news-img:hover {
-    opacity: .7;
+    transform: scale(1.2);
     cursor: pointer;
 }
 
