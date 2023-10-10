@@ -194,6 +194,7 @@ body {
 #news {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100%;
 }
@@ -246,3 +247,15 @@ body {
 }
 
 /* Fim do News */
+
+/* Tech News */
+
+#tech-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Fim do Tech News */
