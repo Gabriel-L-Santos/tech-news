@@ -259,3 +259,15 @@ body {
 }
 
 /* Fim do Tech News */
+
+/* Games News */
+
+#games-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Fim do Games News */
