@@ -271,3 +271,104 @@ body {
 }
 
 /* Fim do Games News */
+
+/* Contatos */
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 3vw 0vw 5vw;
+}
+
+.contact-icon-content h2 {
+    margin: 3rem 3rem 3rem 0rem;
+    padding: 1rem 1rem 1rem 0rem;
+    font-size: 3rem;
+} 
+
+.contact-icons-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-icon-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem 3rem;
+    padding: 1rem;
+}
+
+.contact-icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    background: var(--color-black);
+    padding: 1rem;
+    border-radius: 50%;
+    transition: opacity .3s ease;
+}
+
+.contact-icon:hover {
+    opacity: .8;
+}
+
+.contact-icon i {
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+.contact-info span {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.contact-info a {
+    display: block;
+    font-size: 1.2rem;
+    margin: .25rem 0rem;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.contact-info a:hover {
+    transition: color .3s ease;
+    color: gray;
+}
+
+    /* large to 4k screen - contacts */
+
+    @media (min-width: 1840px) {
+        .contact-icon-content h2 {
+            font-size: calc(1.4vw + 1.8rem);
+        }
+
+        .contact-icon {
+            width: 3vw;
+            height: 3vw;
+        }
+
+        .contact-icon i {
+            font-size: 1vw;
+        }
+
+        .contact-info span {
+            font-size: 1.1vw;
+        }
+
+        .contact-info p {
+            font-size: .7vw;
+        }
+
+        .contact-info a {
+            font-size: .7vw;
+        }
+    }
+
+/* Fim do Contatos */
