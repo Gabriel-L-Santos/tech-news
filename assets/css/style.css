@@ -316,6 +316,7 @@ body {
 }
 
 .contact-icon:hover {
+    cursor: pointer;
     opacity: .8;
 }
 
@@ -372,3 +373,50 @@ body {
     }
 
 /* Fim do Contatos */
+
+/* Footer */
+
+#footer {
+    height: auto;
+    width: 100%;
+
+    padding: calc(3vw + 1rem) 0vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: auto;
+
+    background: #f1f1f1;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-black);
+}
+
+.container-footer h2 {
+    font-size: 1.7rem;
+}
+
+.container-footer h3 {
+    font-size: 1.2rem;
+}
+
+    /* large to 4k screen - footer */
+
+    @media (min-width: 1840px) {
+        .container-footer h2 {
+            font-size: calc(1vw + .2rem);
+        }
+
+        .container-footer h3 {
+            font-size: .8vw;
+        }
+    }
+
+/* Final do Footer */
