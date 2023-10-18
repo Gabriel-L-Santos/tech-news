@@ -317,7 +317,7 @@ body {
 
 .contact-icon:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: .7;
 }
 
 .contact-icon i {
@@ -336,10 +336,10 @@ body {
     margin: .25rem 0rem;
     text-decoration: none;
     color: var(--color-black);
+    transition: color .3s ease;
 }
 
 .contact-info a:hover {
-    transition: color .3s ease;
     color: gray;
 }
 
