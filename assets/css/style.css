@@ -207,6 +207,7 @@ body {
     height: 100%;
     width: 50%;
     position: relative;
+    margin: 0px 10px;
 }
 
 .news-img-wrapper {
@@ -244,6 +245,7 @@ body {
     margin-bottom: 1.5rem;
     color: var(--color-white);
     font-size: 1.6rem;
+    text-align: center;
 }
 
 /* Fim do News */
@@ -420,3 +422,23 @@ body {
     }
 
 /* Final do Footer */
+
+/* Hide Content - Mobile */
+
+@media (max-width: 560px) {
+    #hide-content, #hide-content-3 {
+        display: none;
+    }
+
+    .news-content {
+        width: 100%;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 768px) {
+    #hide-content-2 {
+        display: none;
+    }
+}
+
+/* Fim do Hide Content - Mobile */
