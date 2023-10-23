@@ -28,10 +28,10 @@ body {
 /* Header */
 
 #header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 15px 30px;
     position: fixed;
     background: 'transparent';
@@ -167,42 +167,74 @@ body {
         }
     }
 
-    /* large screen to 4k screen - header */
+        /* large screen to 4k screen - header */
 
-    @media (min-width: 1840px) {
-        .header-title h1 {
-            font-size: calc(1vw + .8rem);
+        @media (min-width: 1840px) {
+            .header-title h1 {
+                font-size: calc(1vw + .8rem);
+            }
+            
+            .navbar {
+                max-width: 25vw;
+            }
+            
+            .navbar-links li {
+                margin: 1rem;
+            }
+            
+            .navbar-links li a {
+                font-size: calc(1vw + .3rem);
+            }
         }
-
-        .navbar {
-            max-width: 25vw;
-        }
-
-        .navbar-links li {
-            margin: 1rem;
-        }
-
-        .navbar-links li a {
-            font-size: calc(1vw + .3rem);
-        }
-    }
-
+    
 /* Fim do Header */
 
-/* Footer */
+/* News */
+ 
+#news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+    
+.title-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: solid 2px #0c0c0c;
+    border-style: solid none;
+}
+    
+.title-content h1 {
+    font-size: 3.5rem;
+}
+    
+.title-subtitle {
+    margin-top: 15px;
+}
+    
+.title-subtitle h3 {
+    font-size: 1.5rem;
+}
+    
+/* Final do News */
 
+/* Footer */
+    
 #footer {
     height: auto;
-    width: 100%;
-
-    padding: calc(3vw + 1rem) 0vw;
-
+    width: 100%;    
+    padding: calc(3vw + 1rem) 0vw;       
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: auto;
-
     background: #f1f1f1;
 }
 
@@ -223,7 +255,7 @@ body {
 }
 
     /* large to 4k screen - footer */
-
+    
     @media (min-width: 1840px) {
         .container-footer h2 {
             font-size: calc(1vw + .2rem);
@@ -235,15 +267,3 @@ body {
     }
 
 /* Final do Footer */
-
-/* News */
-
-#news {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-}
-
-/* Final do News */
