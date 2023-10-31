@@ -1,3 +1,5 @@
 # tech-news
 
-projeto em andamento...
+Projeto feito em HTML, CSS e JavaScript
+
+Em andamento...
