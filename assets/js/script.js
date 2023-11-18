@@ -19,7 +19,7 @@ links.forEach(item => {
 let header = document.getElementById('header');
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 0) {
         header.style.background = '#f1f1f1'
     } else {
         header.style.background = 'transparent'
